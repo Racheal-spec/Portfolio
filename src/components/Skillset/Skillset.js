@@ -27,7 +27,7 @@ const Skillset = () => {
           <motion.div variants={heroAnim} className="frontend">
             <Link to="/frontend" className="skills-heading">
               <div className="skills-heading-frontend">
-                Front end development
+                Full-Stack Web Development
               </div>
             </Link>
             <Link to="/frontend" className="skill-link">

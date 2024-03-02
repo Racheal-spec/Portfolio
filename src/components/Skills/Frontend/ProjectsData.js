@@ -1,6 +1,5 @@
 import project3 from "../../../Assets/isshot.png";
 import project2 from "../../../Assets/spotify-clone-app4.jpg";
-import project5 from "../../../Assets/Paybox-screenshot.png";
 import project4 from "../../../Assets/dashboard-screenshot2.jpg";
 import project6 from "../../../Assets/dashtrackimg.png";
 import project7 from "../../../Assets/anonimg.png";
@@ -70,15 +69,5 @@ export const ProjectsData = [
     stacks: ["Tech Stack:", "React Js", "SCSS", "Material UI", "Recharts"],
     url: "https://paybox-dashboard.netlify.app/",
     github: "https://github.com/Racheal-spec/PayBox-Dashboard",
-  },
-
-  {
-    id: "7",
-    title: "Paybox",
-    img: project5,
-    info: "A financial application landing page.P.S-landing page and all assets designed by me",
-    stacks: ["Tech Stack:", "HTML", "CSS", "Javascript", "GSAP"],
-    url: "https://payboxapp.netlify.app",
-    github: "https://github.com/Racheal-spec/PayBox",
-  },
+  }
 ];

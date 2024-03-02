@@ -28,7 +28,7 @@ const Hero = () => {
             Rachel Tomi
           </motion.h2>
           <motion.h1 variants={heroAnim} className="hero-h1">
-            Front-End Developer
+            Full-Stack Developer
           </motion.h1>
 
           <motion.p className="texth1" variants={heroAnim}>

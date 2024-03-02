@@ -34,7 +34,7 @@ const About = () => {
         </div>
         <div className="text-content">
           <motion.p variants={heroAnim}>
-            Hi. My name is <span className="name">Tomi</span>, I’m a front-end
+            Hi. My name is <span className="name">Tomi</span>, I’m a fullstack
             developer specializing in building accessible web applications for
             organizations. As a highly passionate developer, I’m constantly
             motivated to bring my A-game to every project I’m a part of. My
@@ -159,7 +159,7 @@ const About = () => {
             </ul>
 
             <ul>
-              <h5 className="tech-h">FAMILIAR</h5>
+              {/* <h5 className="tech-h">FAMILIAR</h5> */}
               <div className="right-arrow">
                 <img src={rightarrow} alt="downloadlink" />
                 <p>Node</p>
@@ -174,15 +174,23 @@ const About = () => {
               </div>
               <div className="right-arrow">
                 <img src={rightarrow} alt="downloadlink" />
+                <p>PostgreSQL</p>
+              </div>
+              <div className="right-arrow">
+                <img src={rightarrow} alt="downloadlink" />
+                <p>Python</p>
+              </div>
+              <div className="right-arrow">
+                <img src={rightarrow} alt="downloadlink" />
+                <p>AWS</p>
+              </div>
+              <div className="right-arrow">
+                <img src={rightarrow} alt="downloadlink" />
                 <p>Supabase</p>
               </div>
               <div className="right-arrow">
                 <img src={rightarrow} alt="downloadlink" />
-                <p>web3</p>
-              </div>
-              <div className="right-arrow">
-                <img src={rightarrow} alt="downloadlink" />
-                <p>adobexd</p>
+                <p>web3.js</p>
               </div>
               <div className="right-arrow">
                 <img src={rightarrow} alt="downloadlink" />
