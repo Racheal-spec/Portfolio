@@ -11,8 +11,8 @@ const UiUxHero = () => {
         <div className="hero-text">
           <motion.h1 variants={heroAnim}>UI/UX Design</motion.h1>
           <motion.p variants={heroAnim}>
-            In addition to my coding expertise, I dedicate some of my free time
-            to designing personal projects using Figma or Adobe XD. By
+            In addition to my coding expertise, I dedicate some of my time
+            to designing projects using Figma. By
             integrating this design knowledge into my development workflow, I
             have better honed my skills as a front-end developer.
           </motion.p>
