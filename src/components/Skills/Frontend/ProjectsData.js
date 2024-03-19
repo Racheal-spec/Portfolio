@@ -3,11 +3,13 @@ import project2 from "../../../Assets/spotify-clone-app4.jpg";
 import project4 from "../../../Assets/dashboard-screenshot2.jpg";
 import project6 from "../../../Assets/dashtrackimg.png";
 import project7 from "../../../Assets/anonimg.png";
+import project1 from "../../../Assets/clipstylesimg.png";
 
 export const ProjectsData = [
+
   {
     id: "1",
-    title: "Dashtrack",
+    title: "Dashtrack - Performance Monitoring Tool",
     img: project6,
     info: "A performance monitoring tool that is used to diagose performance issues, and also suggests best ways to fix or prevent them.",
     stacks: ["Typescript", "React Js", "Context API", "Tailwind CSS", "Vite"],
@@ -16,7 +18,16 @@ export const ProjectsData = [
   },
   {
     id: "2",
-    title: "Penbuddy",
+    title: "Clipstyles - CSS Tool",
+    img: project1,
+    info: "A mini css tool that houses various css styles. Users can copy css codes for these styles seamlessly while registered users are allowed to have a library of their saved styles for future use.",
+    stacks: ["Typescript", "NodeJs", "React Js", "CSS Module", "Vite", "ExpressJs", "PostgreSQL", "Firebase"],
+    url: "Coming Soon",
+    github: "https://github.com/Racheal-spec/clipstyles",
+  },
+  {
+    id: "3",
+    title: "Penbuddy - Anonymous Blogging Platform",
     img: project7,
     info: "A Blogging community where you can share your stories and thoughts without revealing your identity.",
     stacks: [
@@ -37,8 +48,8 @@ export const ProjectsData = [
     github: "https://github.com/Racheal-spec/Anon.me",
   },
   {
-    id: "3",
-    title: "Instamoviesearch",
+    id: "4",
+    title: "Instamoviesearch - Movie App",
     img: project3,
     info: "A react movie app built using The Movie DB API. Users can get a list of trending, popular, and top-rated movies. What's more? They can also search for their favorite movies, sign up, and add these movies to their watchlist.",
     stacks: [
@@ -53,7 +64,7 @@ export const ProjectsData = [
     github: "https://github.com/Racheal-spec/Instasearchmovie",
   },
   {
-    id: "4",
+    id: "5",
     title: "Spotify Clone",
     img: project2,
     info: "This is a front-end clone of the Spotify web player. The UI was modeled after the Spotify desktop app using the Spotify Web API. Users whose Spotify email has been added to this project database can view their playlists and listen to their favorite songs on the Tomi-Spotify clone.",
