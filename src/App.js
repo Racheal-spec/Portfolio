@@ -10,6 +10,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import { AnimatePresence } from "framer-motion";
 import Preloader from "./components/Preloader/Preloader";
+import Wordpress from "./components/Skills/Wordpress/Wordpress";
 
 function App() {
   const location = useLocation();
@@ -28,6 +29,7 @@ function App() {
               <Route path="/" exact component={Hero} />
               <Route path="/skillset" component={Skillset} />
               <Route path="/frontend" component={Frontend} />
+              <Route path="/wordpress" component={Wordpress} />
               <Route path="/uiux" component={UiUx} />
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />

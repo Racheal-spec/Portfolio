@@ -43,6 +43,7 @@ $white: #ffffff;
     .skills {
       @include flex(center, center);
       flex-wrap: wrap;
+      padding-bottom: 30px;
 
       .skills-heading {
         text-decoration: none;

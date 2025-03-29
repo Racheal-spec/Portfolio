@@ -53,6 +53,18 @@ const Skillset = () => {
             </a>
           </motion.div>
         </div>
+        <div className="skills">
+          <motion.div variants={heroAnim} className="frontend">
+            <Link to="/wordpress" className="skills-heading">
+              <div className="skills-heading-frontend">
+                Wordpress Development
+              </div>
+            </Link>
+            <Link to="/wordpress" className="skill-link">
+              <p>&rarr;</p>
+            </Link>
+          </motion.div>
+        </div>
       </div>
     </motion.section>
   );
